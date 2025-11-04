@@ -1,7 +1,7 @@
 package de.johann;
 
 public class Kugel {
-    private double radius;
+    private final double radius;
 
     private final double pi = 3.14;
 
