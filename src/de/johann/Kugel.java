@@ -6,9 +6,6 @@ public class Kugel {
     private final double pi = 3.14;
 
     public Kugel(double radius) {
-        if (radius <= 0) {
-            throw new IllegalArgumentException("Der Radius darf nicht Null oder negativ sein!");
-        }
         this.radius = radius;
     }
 

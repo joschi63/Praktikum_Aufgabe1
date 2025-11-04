@@ -18,12 +18,8 @@ public class Kugeln {
     public static void main(String[] args) throws Exception {
 
         for (int i = 0; i < radien.length; i++) {
-            try {
-            Kugel kugel = new Kugel(radien[i]);
+                Kugel kugel = new Kugel(radien[i]);
                 printInfo(kugel);
-            } catch (IllegalArgumentException e) {
-                System.out.println("Fehler beim Erstellen des Kreises mit dem Radius " + radien[i] + ": " + e.getMessage());
-            }
         }
     }
 }
